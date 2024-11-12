@@ -43,7 +43,7 @@ public class BaseClass {
 		System.out.println("Launch the Browser");
 		//String Browser=browser;                                       //this is take value from xml  file
 		//String Browser=flib.getDataFromPropertiesFile("browser");       //this is take value from property file
-		String Browser=System.getProperty("browser");
+		String Browser=System.getProperty("Browser");
 		if(Browser.equals("chrome")) {
 			driver=new ChromeDriver();
 		}else if(Browser.equals("edge")) {
